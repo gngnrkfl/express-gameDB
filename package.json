@@ -1,0 +1,29 @@
+{
+  "name": "guiltygear",
+  "version": "1.0.0",
+  "description": "Express Game",
+  "main": "src/guiltygear.ts",
+  "scripts": {
+    "build": "rm -rf build/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/gngnrkfl/express-gameDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gngnrkfl/express-gameDB/issues"
+  },
+  "homepage": "https://github.com/gngnrkfl/express-gameDB#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/mysql": "^2.15.19",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  }
+}
